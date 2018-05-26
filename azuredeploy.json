@@ -193,7 +193,7 @@
           "fileUris": [
             "https://github.com/BlockInTheShell/hyperledger-azure-template/raw/master/install_fabric.sh"
           ],
-          "commandToExecute": "[concat('bash install_fabric.sh ', adminUsername)]"
+          "commandToExecute": "concat('bash install_fabric.sh ', adminUsername)"
         }
       }
     }
