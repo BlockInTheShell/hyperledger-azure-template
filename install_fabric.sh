@@ -1,5 +1,8 @@
 #!/bin/bash
 apt-get -y update
+su $1
+
+mkdir ~/install-fabric && cd ~/install-fabric
 
 #PREREQUESITES
 curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
@@ -7,7 +10,7 @@ curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
 chmod u+x prereqs-ubuntu.sh
 ./prereqs-ubuntu.sh
 
-#CLI TOOLS
+#CLI TOOLustom
 npm install -g composer-cli
 npm install -g composer-rest-server
 npm install -g generator-hyperledger-composer
