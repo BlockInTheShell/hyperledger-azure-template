@@ -188,7 +188,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/apache2-on-ubuntu-vm/install_apache.sh"
+            "https://github.com/BlockInTheShell/hyperledger-azure-template/raw/master/install_fabric.sh"
           ],
           "commandToExecute": "bash install_fabric.sh"
         }
