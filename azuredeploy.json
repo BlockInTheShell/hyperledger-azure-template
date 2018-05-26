@@ -46,7 +46,7 @@
   },
   "variables": {
     "imagePublisher": "Canonical",
-    "imageOffer": "Ubuntu Server",
+    "imageOffer": "UbuntuServer",
     "OSDiskName": "osdiskforlinuxsimple",
     "nicName": "myVMNic",
     "addressPrefix": "10.0.0.0/16",
